@@ -1,9 +1,9 @@
 ---
-title: "Demo Post 1"
+title: "proj2" 
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: 2009-01-01
+pubDate: 2003-01-01
 heroImage: "/post_img.webp"
 tags: ["tokio"]
 ---
 
-blog1
+proj2
