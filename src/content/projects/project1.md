@@ -2,7 +2,7 @@
 title: "RAG QA Assistant with LlamaIndex and Gemini 2.0 Flash"
 description: " d d"
 pubDate: 2025-04-20
-heroImage: "/project1_banner.png"
+heroImage: "/hero-placeholder.svg"
 tags: ["LlamaIndex", "LangChain", "Vector DB", "Pinecone", "LLM", "Gemini Models", "Streamlit"]
 ---
 
