@@ -14,23 +14,27 @@ const imgIsSvg =
       {
         img &&
           (imgIsSvg ? (
-            <img
-              src={img}
-              alt={title}
-              width={750}
-              height={422}
-              class="max-w-full md:max-w-[13rem] rounded-lg object-cover aspect-video"
-              loading="lazy"
-            />
+            <div class="w-full md:w-[13rem] overflow-hidden rounded-lg aspect-video">
+              <img
+                src={img}
+                alt={title}
+                width={750}
+                height={422}
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
           ) : (
-            <Image
-              src={img}
-              width={750}
-              height={422}
-              format="webp"
-              alt={title}
-              class="max-w-full md:max-w-[13rem] rounded-lg"
-            />
+            <div class="w-full md:w-[13rem] overflow-hidden rounded-lg aspect-video">
+              <Image
+                src={img}
+                width={750}
+                height={422}
+                format="webp"
+                alt={title}
+                class="w-full h-full object-cover"
+              />
+            </div>
           ))
       }
       <div class="grow w-full">
