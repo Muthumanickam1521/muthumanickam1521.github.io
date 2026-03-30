@@ -12,11 +12,20 @@ tags: ["LlamaIndex", "LangChain", "Vector DB", "Pinecone", "LLM", "Gemini Models
 Many people struggle to understand and verify their financial documents (credit card bills) due to complex formats and manual effort. This project aims to build a RAG-based QA assistant that lets users upload financial documents and query them naturally for instant clarity.
 
 
-# Demo
-"project1_demo.mp4"
-### Document used: "/proeject1_doc.pdf"
-### GitHub: https://github.com/Muthumanickam1521/RAG-QA-Assistant
-### Technical Blog: https://medium.com/@pearlrubymv/from-data-chaos-to-calm-a-rag-qa-assistant-with-llamaindex-gemini-2-0-flash-ac0a709ba2eb
+#### Demo
+<video width="600" controls>
+  <source src="/project1_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Document 
+<object data="/project1_doc.pdf" type="application/pdf" width="100%" height="600">
+  <p>PDF cannot be displayed. <a href="/project1_doc.pdf">Download</a></p>
+</object>
+
+**GitHub**: [View Repository](https://github.com/Muthumanickam1521/RAG-QA-Assistant) 
+
+**Technical Blog**: [View Article](https://medium.com/data-and-beyond/from-data-chaos-to-calm-a-rag-qa-assistant-with-llamaindex-gemini-2-0-flash-ac0a709ba2eb)
 
 
 ---
@@ -25,6 +34,7 @@ Many people struggle to understand and verify their financial documents (credit 
 
 1. Everyday usable chatbot assistant that takes care questions about your financial documents.
 2. Improved the question-answer time from **30 to 20 seconds** by adopting strategies of indexing and structuring code logic.
+
 
 ---
 
@@ -41,6 +51,7 @@ Many people struggle to understand and verify their financial documents (credit 
 - Token usage
     - **Challenge**: Standard responses like “Based on the information...” are indeed not necessary at least in this QA chatbot.
     - **Solution**: Provided prompt instructions on token usage. Now it provides bullet-tip answers by cutting out extra tokens. By doing this, we get short and crisp answers with less input tokens which cuts cost.
+
 
 ---
 
