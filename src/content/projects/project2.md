@@ -6,11 +6,13 @@ heroImage: "/project2_banner.png"
 tags: ["scikit-learn", "NumPy", "Pandas", "PyTorch", "TensorFlow", "AsyncIO", "FastAPI", "MangoDB", "AutoML", "Plotly", "Seaborn", "Matplotlib", "RDKit", "Machine Learning", "Deep Learning", "Optuna", "Hyper-parameter Tuning", "Neural Networks", "Pipeline", "Model Deployment"]
 ---
 
+
 # Overview
 
 AI in drug discovery helps in predicting how a new drug (a chemical substance like paracetamol) will behave and whether it’s safe or effective just by looking at its chemical structure. This speeds up drug development, reduces cost, and helps scientists focus on the most promising medicines. 
 
 As many scientists often require a tool to make AI more accessible, we come up with proposal of developing an AutoML solution (a pipeline that automated machine learning model building process, an end-to-end solution). Though most of the workflow is pipelined and the project itself is implemented as Human-in-the-loop HITL.
+
 
 ---
 
@@ -18,22 +20,20 @@ As many scientists often require a tool to make AI more accessible, we come up w
 
 To develop a workflow for automated machine learning model building process (in short AutoML solution)
 
+
 ---
 
 # Workflow
 
 Typical drug dataset might look like:
 
-![Untitled Diagram.drawio.png](attachment:d2661b71-4ec1-43f9-8869-d7189ad2f4d4:Untitled_Diagram.drawio.png)
+![workflow_image](/project2_image3.png)
 
-> **Note (High level):** Given a dataset (contains molecules, identifier, target property) → preprocesses data → create features → engineer features → trains ML models → hyperparameter tunes best model → ready-for-prediction
-**Code**: Can’t be disclosed as this project is owned by my employer.
-> 
-> 
-> ![depiction.png](attachment:5ef2bd58-be3a-4f4d-b0de-0a432db192a8:depiction.png)
-> 
+> **Note (High level):** Given a dataset (contains molecules, identifier, target property) → preprocesses data → create features → engineer features → trains ML models → hyperparameter tunes best model → ready-for-prediction  
+> **Code**: Can’t be disclosed as this project is owned by my employer.
+> ![depiction.png](/project2_image2.png)
+> ![hla.png](/project2_image1.png)
 
-![image.png](attachment:93463182-e6c3-4f5c-a31c-be8c677fed77:image.png)
 
 ---
 
@@ -62,6 +62,7 @@ Typical drug dataset might look like:
 - Software Engineering Practices
     - logging / tqdm / email - logs outputs, updates (or) errors, showing execution using progress bar, triggering email notifications
 
+
 ---
 
 # Key Features
@@ -78,6 +79,7 @@ Typical drug dataset might look like:
 10. **4000+** lines of code, modular, re-usable
 11. Use of **Blue-Green** deployment approach - Deploying in an environment and making it accessible to a population
 
+
 ---
 
 # Achievements
@@ -89,7 +91,8 @@ Typical drug dataset might look like:
 
 > **11%** performance improvement: Average of % difference before/after tuning, **200 times tested** with different datasets.
 > 
-1. Potential to shrink drug discovery timeline form **20 years → 2+ years**
+5. Potential to shrink drug discovery timeline form **20 years → 2+ years**
+
 
 ---
 
