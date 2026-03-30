@@ -28,11 +28,11 @@ const heroIsSvg =
 
 <BaseLayout title={title} description={description} image={heroImage} ogType="article">
   <main class="md:flex md:justify-center">
-    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto prose-img:rounded-md">
       {
         heroImage &&
           (heroIsSvg ? (
-            <div class="w-full mb-6 overflow-hidden rounded-lg aspect-video">
+            <div class="w-full mb-6 overflow-hidden rounded-md aspect-video">
               <img
                 src={heroImage}
                 alt={title}
@@ -43,7 +43,7 @@ const heroIsSvg =
               />
             </div>
           ) : (
-            <div class="w-full mb-6 overflow-hidden rounded-lg aspect-video">
+            <div class="w-full mb-6 overflow-hidden rounded-md aspect-video">
               <Image
                 width={750}
                 height={422}
