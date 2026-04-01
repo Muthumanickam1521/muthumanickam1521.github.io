@@ -1,3 +1,15 @@
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
+
+/* Prevent subtle layout shift when page/tab content changes height (Windows scrollbar width). */
+html {
+    scrollbar-gutter: stable;
+}
+
+/* Fallback for browsers without scrollbar-gutter support. */
+@supports not (scrollbar-gutter: stable) {
+    body {
+        overflow-y: scroll;
+    }
+}
