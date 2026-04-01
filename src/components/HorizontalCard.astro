@@ -14,7 +14,7 @@ const imgIsSvg =
       {
         img &&
           (imgIsSvg ? (
-            <div class="w-full md:w-[13rem] overflow-hidden rounded-md aspect-video">
+            <div class="w-full md:w-[16rem] overflow-hidden rounded-md aspect-video flex-shrink-0">
               <img
                 src={img}
                 alt={title}
@@ -25,7 +25,7 @@ const imgIsSvg =
               />
             </div>
           ) : (
-            <div class="w-full md:w-[13rem] overflow-hidden rounded-md aspect-video">
+            <div class="w-full md:w-[16rem] overflow-hidden rounded-md aspect-video flex-shrink-0">
               <Image
                 src={img}
                 width={750}
