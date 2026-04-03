@@ -5,5 +5,8 @@
     },
     "record": {
       "CNAME": "Muthumanickam1521.github.io"
+    },
+    "records": {        
+        "RECORDTYPE": "RECORDCONTENT"
     }
   }
