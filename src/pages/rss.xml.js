@@ -3,7 +3,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug";
 
-export async function get(context) {
+export async function GET(context) {
   const blog = await getCollection("blogs");
   return rss({
     title: SITE_TITLE,
@@ -13,7 +13,7 @@ export async function get(context) {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `/blog/${createSlug(post.data.title, post.slug)}/`,
+      link: `/blogs/${createSlug(post.data.title, post.slug)}/`,
     })),
   });
 }
