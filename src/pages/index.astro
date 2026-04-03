@@ -5,10 +5,10 @@ import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
 const posts = (await getCollection("blogs")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const last_posts = posts.slice(0, 2);
+const last_posts = posts.slice(0, 1);
 
 const projects = (await getCollection("projects")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const last_projects = projects.slice(0, 2);
+const last_projects = projects.slice(0, 1);
 
 ---
 
@@ -59,7 +59,7 @@ const last_projects = projects.slice(0, 2);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          url={"/blogs/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
         />

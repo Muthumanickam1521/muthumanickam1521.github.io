@@ -3,7 +3,7 @@ title: "🧠 Biological Neural Networks vs. Artificial Neural Networks"
 description: ""
 pubDate: 2024-05-30
 heroImage: "/blog3_banner.png"
-tags: ["Artificial Intelligence", "Neural Networks", "Deep Learning", "AGI"]
+tags: ["Artificial Neural Networks", "Biological Neural Network", "Intuition"]
 ---
 
 ### Bridging the Gap Between Brains and Machines

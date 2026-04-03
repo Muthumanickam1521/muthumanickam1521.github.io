@@ -3,7 +3,7 @@ title: "Demystifying Ensemble Learning Techniques"
 description: ""
 pubDate: 2024-06-14
 heroImage: "/blog2_image1.png"
-tags: ["Machine Learning", "Ensemble Learning", "Python Programming"]
+tags: ["Ensemble Learning", "Machine Learning 🤖", "Algorithms 👾"]
 ---
 
 #### Who am I?
