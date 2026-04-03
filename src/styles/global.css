@@ -3,10 +3,14 @@
 }
 
 /* Prevent subtle layout shift when page/tab content changes height (Windows scrollbar width). */
+
+/* Add these lines to your src/styles/global.css */
+
 html {
     scrollbar-gutter: stable;
-}
-
+    overflow-y: scroll;
+  }
+  
 /* Fallback for browsers without scrollbar-gutter support. */
 @supports not (scrollbar-gutter: stable) {
     body {
