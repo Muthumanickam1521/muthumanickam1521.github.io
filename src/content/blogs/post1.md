@@ -3,7 +3,7 @@ title: "From Data Chaos to Calm: A RAG QA Assistant with LlamaIndex + Gemini 2.0
 description: ""
 pubDate: 2025-04-25
 heroImage: "/project1_banner.png"
-tags: ["Medium", "Project Support Article", "RAG", "LLM", "LlamaIndex", "Gemini 2.0 Flash", "Finetune LLM"]
+tags: ["Natural Language Processing 🔡", "LLM 🧠", "Retrieval Augmented Generation 📄⛏️"]
 ---
 
 Inthis modern, people tend to work for longer hours. Sometimes they may not get time to go through all bills that received in the previous months. As in my case, whenever I get my monthly credit card bill statements, I think like “Oh! again, how many transactions have i made last month in food? How much cashback I received for this month from swiggy?”. This is where one can leverage the power of LLMs like ChatGPT-4o, Gemini-2.0, etc.

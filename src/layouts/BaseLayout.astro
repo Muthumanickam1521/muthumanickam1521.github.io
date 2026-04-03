@@ -26,10 +26,10 @@ const {
   <body>
     <div class="bg-base-100 drawer lg:drawer-open">
       <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-      <div class="drawer-content bg-base-100">
+      <div class="drawer-content bg-base-100 flex flex-col min-h-screen">
         <Header title={SITE_TITLE} />
-        <div class="md:flex md:justify-center">
-          <main class="p-6 pt-10 lg:max-w-[900px] max-w-[100vw]">
+        <div class="flex justify-center flex-1 w-full">
+          <main class="p-6 pt-10 w-full lg:max-w-[900px] overflow-x-hidden">
             <slot />
           </main>
         </div>
